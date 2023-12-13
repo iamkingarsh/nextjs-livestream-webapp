@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
+import { Exo, Exo_2, Poppins } from "next/font/google";
 
 import { cn } from "@/lib/utils";
 
-const font = Poppins({
+const font = Exo({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
